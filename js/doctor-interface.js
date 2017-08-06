@@ -4,7 +4,7 @@ var Doctor = require('./../js/doctor.js').doctorModule;
 var listDoctors = function(medicalIssue, doctors) {
     doctors.forEach(function(doctor) {
         // console.log(doctor);
-$('#doctor').append("<p>" + doctor.profile.last_name + " , " + doctor.profile.first_name + "</p>" + "hi");
+$('#doctor').append("<p>" + doctor.profile.last_name + " , " + doctor.profile.first_name + "</p>");
 });
 };
 
