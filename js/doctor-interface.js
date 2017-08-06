@@ -1,9 +1,11 @@
 var apiKey = require('./../.env').apiKey;
 var Doctor = require('./../js/doctor.js').doctorModule;
 
-var listDoctors = function(medicalIssue, docData) {
-  console.log(docData);
-$('#doctor').text(medicalIssue + docData + "hi");
+var listDoctors = function(medicalIssue, doctors) {
+    doctors.forEach(function(doctor) {
+        console.log(listDoctors);
+$('#doctor').text("<p>" + doctor.profile.last_name + " , " + doctor.profile.first_name + "</p>" + "hi");
+});
 };
 
 $(document).submit(function(event) {
