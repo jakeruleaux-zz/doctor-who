@@ -4,47 +4,52 @@ Doctor Finder App, 07/21/17
 
 By Jacob Ruleaux
 
-Description;
+* Description;
 
 An App featuring an API call that will allow the user to search for local doctors. The user inputs symptoms and local available doctors are outputted.
 
-Installation;
+* Installation;
 
-Open GitHub site on your browser: https://github.com/jakeruleaux/doctor
+    * Be certain that your machine has 'NODE' downloaded. https://nodejs.org/en/download/
 
-Select the dropdown (green box) "Clone or download"
+    * Open GitHub site on your browser: https://github.com/jakeruleaux/doctor-who
 
-Copy the link for the GitHub repository
+    * Select the dropdown (green box) "Clone or download"
 
-Open Terminal on your computer
+    * Copy the link for the GitHub repository
 
-In Terminal, perform the following steps:
+    * Open Terminal on your computer
 
-Type 'cd desktop' and press enter.
+    * In Terminal, perform the following steps:
 
-Type 'git clone' then copy the repository link and press enter.
+    * Type 'cd desktop' and press enter.
 
-Type 'cd doctor' to access the path on your terminal.
+    * Type 'git clone' then copy the repository link and press enter.
 
-Type 'npm install' into your terminal.
+    * Type 'cd doctor' to access the path on your terminal.
 
-Type 'bower install' into your terminal.
+    * Type 'npm install' into your terminal.
 
-Type 'gulp build' into your terminal.
+    * Type 'bower install' into your terminal.
 
-Type 'gulp serve' into your terminal.
+    * Type 'gulp build' into your terminal.
 
-Known Bugs
+    * Type 'gulp serve' into your terminal.
 
-Support and contact details
+* Known Bugs
+
+    * Quickly repeated submission can cause a disconnection with the API.
+
+* Support and contact details
 
 Feel free to contact the author with questions or concerns at jakeruleaux@hotmail.com
 
-Technologies Used
+* Technologies Used
 
 This app uses HTML, CSS, SASS, Javascript, jQuery, Bootstrap, Gulp, Bower, and Node. betterdoctor.com is the host of the API.
-License
 
-MIT
+* License
+
+ MIT
 
 Copyright (c) 2017 Jacob Ruleaux
