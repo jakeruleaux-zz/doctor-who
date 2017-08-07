@@ -8,12 +8,11 @@ $('#doctor').append("<p>" + doctor.profile.last_name + " , " + doctor.profile.fi
 };
 
 
-$(document).submit(function(event) {
+$(document).ready(function() {
+  $('#input-form').submit(function(event){
   event.preventDefault();
-
-
   var medicalIssue = $("#input").val();
   var newDoctor = new Doctor(medicalIssue);
-  $('#syptom').text(medicalIssue);
   newDoctor.getDoctors(medicalIssue, listDoctors);
+ });
 });
