@@ -13,5 +13,7 @@ $(document).ready(function() {
   var medicalIssue = $("#input").val();
   var newDoctor = new Doctor(medicalIssue);
   newDoctor.getDoctors(medicalIssue, listDoctors);
+  $('#input').val(" ");
+  $('#symptom').append("This hurts " + medicalIssue);
  });
 });
