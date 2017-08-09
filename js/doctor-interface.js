@@ -1,6 +1,6 @@
 var Doctor =    require('./../js/doctor.js').doctorModule;
 
-var listDoctors = function(doctors) {
+var listDoctors = function(medicalIssue, doctors) {
     doctors.forEach(function(doctor) {
       $('#doctor').append("<p>" + doctor.profile.last_name + " , " + doctor.profile.first_name +  " , " + doctor.profile.title + "</p>");
   });
@@ -16,6 +16,5 @@ $(document).ready(function() {
   newDoctor.getDoctors(medicalIssue, listDoctors);
   $('#input').val(" ");
   $('#symptom').append("This hurts " + medicalIssue);
-  // $(medicalIssue).empty();
   });
 });
