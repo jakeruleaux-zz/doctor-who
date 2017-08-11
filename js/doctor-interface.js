@@ -15,9 +15,10 @@ $(document).ready(function() {
     var newDoctor = new Doctor(medicalIssue);
     newDoctor.getDoctors(medicalIssue, listDoctors);
     $('#input').val(" ");
-    $('#symptom').append("This hurts " + medicalIssue);
+    $('#symptom').text("This hurts " + medicalIssue);
     $('#doctor').empty();
-    
+    $('#sympton').remove();
+
 
   });
 });
