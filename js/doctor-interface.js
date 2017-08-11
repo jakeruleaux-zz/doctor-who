@@ -2,7 +2,7 @@ var Doctor =    require('./../js/doctor.js').doctorModule;
 
 var listDoctors = function(medicalIssue, doctors) {
     doctors.forEach(function(doctor) {
-      $('#doctor').append("<p>" + doctor.profile.last_name + " , " + doctor.profile.first_name +  " , " + doctor.profile.title + "</p>");
+      $('#doctor').append("<p>" + doctor.profile.last_name + " , " + doctor.profile.first_name +  " , " + doctor.profile.title + "</p>" + <ul> + <li> + doctor.profile.practices + </li> + </ul>);
   });
 };
 

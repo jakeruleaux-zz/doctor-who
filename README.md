@@ -32,9 +32,18 @@ An App featuring an API call that will allow the user to search for local doctor
 
     * Type 'bower install' into your terminal.
 
+    * An APIKEY will be needed to run the App.
+
+      * Go to https://developer.betterdoctor.com/ and sign up for an API key.
+
+      * Type 'touch .env' into your terminal to create a file for your API key.
+
+      * Type 'exports.apiKey =' into the .env file and paste your API key after it "API key".
+
     * Type 'gulp build' into your terminal.
 
     * Type 'gulp serve' into your terminal.
+
 
 * Known Bugs
 

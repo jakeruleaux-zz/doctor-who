@@ -2,7 +2,18 @@ body {
   background-color: #cadcf9;
 }
 
+$words: times;
+
 h1 {
   font-size: 40px;
   font-style: italic;
+  font-family: $words;
+}
+
+p {
+  font-family: $words;
+}
+
+h2 {
+  font-family: $words;
 }
